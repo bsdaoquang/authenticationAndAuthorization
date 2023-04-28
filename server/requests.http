@@ -1,0 +1,28 @@
+GET http://localhost:4000/users
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+  "username": "abc123qư3",
+  "password": "123456"
+}
+
+
+###
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+  "username": "abc123qư3",
+  "password": "123456"
+}
+
+
+###
+GET http://localhost:4000/films
+
+###
+GET http://localhost:4000/filmDetail?id=2
+Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsInVzZXJuYW1lIjoiYWJjMTIzccawMyIsImlhdCI6MTY4MjY3NDgxMH0.HEzkmVx79MYhjJNYUK2ejUHv2DJmgYxxaPUORdZoJCw'
